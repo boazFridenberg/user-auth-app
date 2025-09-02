@@ -1,0 +1,17 @@
+:root {
+  --bg: #f5f7fb;
+  --card: #ffffff;
+}
+
+html, body, #root {
+  height: 100%;
+  margin: 0;
+  font-family: Inter, Roboto, Helvetica, Arial, sans-serif;
+  background: linear-gradient(180deg, var(--bg), #eef3fb);
+}
+
+.app-shell {
+  max-width: 1000px;
+  margin: 32px auto;
+  padding: 24px;
+}
