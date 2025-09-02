@@ -21,6 +21,7 @@ export default function Login() {
       const user = login(form);
       toast.success(`Welcome back, ${user.name}`);
       navigate("/dashboard");
+    // eslint-disable-next-line @typescript-eslint/no-explicit-any
     } catch (err: any) {
       toast.error(err.message || "Login failed");
     }
