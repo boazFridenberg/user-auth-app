@@ -39,6 +39,9 @@ export default function Header() {
             <Button component={RouterLink} to="/register" variant="contained">
               Register
             </Button>
+            <Button component={RouterLink} to="/visme" variant="outlined">
+              Cool Form
+            </Button>
           </>
         )}
       </Toolbar>

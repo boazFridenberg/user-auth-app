@@ -8,12 +8,14 @@ import Home from "./pages/Home";
 import AdminPanel from "./pages/AdminPanel";
 import ProtectedRoute from "./components/ProtectedRoute";
 import UserDashboard from "./pages/UserDashboard";
+import VismeEmbed from "./components/VismeEmbed";
 
 export default function App() {
   return (
     <Container className="app-shell">
       <Header />
       <Routes>
+        <Route path="/visme" element={<VismeEmbed />} />
         <Route path="/" element={<Home />} />
         <Route path="/login" element={<Login />} />
         <Route path="/register" element={<Register />} />
